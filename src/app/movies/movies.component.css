@@ -1,0 +1,15 @@
+.allMovies{
+    background-image: url(../../assets/backgroundMovie.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn{
+    background-color: #F8D7DA;
+}
+
+.btn:hover{
+    color:black;
+}

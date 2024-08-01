@@ -1,0 +1,20 @@
+<div class="py-5 allMovies">
+    <h1 class="text-center text-white py-3">Movies</h1>
+    <div class="container">
+        <div class="row gy-4">
+            @for (movie of moviesArr; track $index) {
+                <div class="col-lg-3 col-md-4">
+                    <div class="bg-primary rounded-3 bg-danger text-white">
+                        <img [src]="posterLink + movie.poster_path" alt="" class="w-100 img-fluid rounded-top-3">
+                        <div>
+                            <h4 class="px-2">{{movie.title ? movie.title : movie.name}}</h4>
+                            <p class="px-3">{{movie.overview.split(' ').slice(0,15).join(' ')}}</p>
+                            <p class="btn mb-0">vote_count: {{movie.vote_average}}</p>
+                        </div>
+                    </div>
+                </div>      
+            }
+        </div>
+    </div>
+
+</div>

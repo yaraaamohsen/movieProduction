@@ -1,0 +1,13 @@
+.content {
+    color:#ffffff;
+    font-family: "Roboto Slab", serif;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+
+.btn{
+    border-radius: 0 100vh 100vh;
+    font-size: 1.3rem;
+}
